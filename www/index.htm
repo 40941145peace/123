@@ -8,96 +8,69 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
   
-  <body background="data:image/jpeg;base64,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" style="">
-      <p style="text-align: center;color: rgb(96, 57, 18);font-size: 50px;">世BRO滷味攤</p>
+  <body background="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxISEhUSEhIVFRUVFRUVFRUVFxcXFRUVFRUXFxUXFxUYHSggGB0lHRUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDQ0OFQ8PFSsdFR0tLS0rKzArKysrKystLSstMC0tLS0tLS0tNysrLS03LSstLSstLS0tKystLSstLS0tN//AABEIAOEA4QMBIgACEQEDEQH/xAAYAAEBAQEBAAAAAAAAAAAAAAAAAQIDB//EACUQAQEBAAECBQUBAQAAAAAAAAARAQJBYRIhMVHwA3GRobHRUv/EABgBAQEBAQEAAAAAAAAAAAAAAAABAgQD/8QAGREBAQEBAQEAAAAAAAAAAAAAABEBEjEh/9oADAMBAAIRAxEAPwD04KVyPQSLSoBAqgAAilQRSigFAAEEUooAAAUAKUEihQIM893o0ggtQFhCgBA3VAhU3QWJCrQIQKBCGlAhDdAApUCEKVQzCFKgQCqEIAEClAhCpUFnZABYQKoBgACILAACCAoaVQDdAAAAMAEAWAIEIJVFAAIAExC/PIQURVDATQUEBpBAUTAFAAVCAaAgFRVAQBQQFAABMBoRAUIIKhuJqihEiChCKAEA0CAboRAUIQASAKEIAEEAIbigJFgAQzANVIAAAFAAoRAoQUEUgAQiBSkIoBoBSkAKUgAboQCgAZoAG6UhAKBiACKKboAVFEAoKJmrRQSpiwApgIACgUARQAoAFFQBKoBTAAqVQCgAgoBiaoAKgAAAAEAAAADAEUNABQRFEBMXQBFFAFBEWiBCAoRFAApQIjSIETFACBVAKUCAUCEADMCgBAAhAwACgBQEgtAIBQIBQApQAAIRFoEClAClAhCiBAooBQCEKAEKUADNAEq1AAUDQABAWAAAIAICgKGiLQAEAKKBBEFICioACbgqCcOMUAVAUBFQARRQSAoICgiCiQUVWYoAigCKgCYqgAAIoAGIAixQgREFGVpRRM1QKVnlymVcKLRIQFoJFF0pCABuEAAgAAAQgBQgKgQACAGcnH6/1/DuZHTsz1m7FihBUWpU5elvnfTpPn8Tl9969M3/AJnpnffw1ylTdOPLU5+uz0uze3Qy+3XoxztaroVnx77df0eLs1NSt0pgAUIBpTQChAClNAKBACkIAlNYznvt179vP07/AKIOlKm6l32INVKl32cuHPl4t8vL7ff/ADPym/B23PcxN3t8+f0qwXxfPIWCC78/CYAMfVbwEz3VAFRdTqCipoICoKAALqaABqCC4dQA1QUQADAAMXAQAAf/2Q==" style="">
+      
       <center>
           <img src="https://cotton.pink/wp-content/uploads/20190919212717_10.jpeg" alt="" width="600px" height="400px">
       </center>
-      <nav class="navbar navbar-expand-sm navbar-light bg-light">
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="text" placeholder="搜尋改裝品">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">搜尋</button>
-        </form>
+
+      <p style="text-align: center;color: rgb(96, 57, 18);font-size: 50px;">世BRO滷味攤</p>
       
     </nav>
   
     <div style="margin:30px;">
       <form action="check.php" method="post">
         <div class="form-group">
-              <label for="申請人姓名">申請人姓名</label>
-              <input type="text" name="申請人姓名" id="申請人姓名" class="form-control" placeholder="請輸入姓名">
+              <label for="A套餐：響肉至極">A套餐：響肉至極(豬肉片/牛肉片 擇一)</label>
+              <input type="text" name="A套餐：響肉至極" id="A套餐：響肉至極" class="form-control" placeholder="請輸入數量">
         </div>
   
   
         <div class="form-group">
-          <label for="身分證字號">身分證字號</label>
-          <input type="text" name="身分證字號" id="身分證字號" class="form-control" placeholder="請輸入身分證字號">
+          <label for="B套餐：海陸雙饗">B套餐：海陸雙饗(鮮蝦+透抽+肉片)</label>
+          <input type="text" name="B套餐：海陸雙饗" id="B套餐：海陸雙饗" class="form-control" placeholder="請輸入數量">
         </div>
   
         <div class="form-group">
-          <label for="e-mail">E-mail</label>
-          <input type="text" name="e-mail" id="e-mail" class="form-control" placeholder="請輸入email">
-        </div>
-        <div class="form-group">
-          <label for="password">生日</label>
-          <input type="date" name="date" id="date" class="form-control" placeholder="請輸入日期">
+          <label for="C套餐：麻辣饗宴">C套餐：麻辣饗宴</label>
+          <input type="text" name="C套餐：麻辣饗宴" id="C套餐：麻辣饗宴" class="form-control" placeholder="請輸入數量">
         </div>
         <br>
         <br>
         <br>
-        <p>車體顏色</p>
+        <p>做什麼口味</p>
         <div class="form-check">
           <label class="form-check-label">
-            <input type="radio" class="form-check-input" name="color" id="" value="BB" checked="">
-            藍黑
+            <input type="radio" class="form-check-input" name="sauce" id="" value="Sign" checked="">
+            招牌
           </label>
         </div>
         <div class="form-check">
           <label class="form-check-label">
-            <input type="radio" class="form-check-input" name="color" id="" value="WH">
-            水泥灰
+            <input type="radio" class="form-check-input" name="sauce" id="" value="Spicy">
+            麻辣
           </label>
-          <div class="form-check">
-              <label class="form-check-label">
-                <input type="radio" class="form-check-input" name="color" id="" value="BB">
-                黑色
-              </label>
+  
       <br>
       <br>
-        <p>性別</p>
-        <div class="form-check">
+      <p>是否加辣</p>
+      <div class="form-check">
           <label class="form-check-label">
-            <input type="radio" class="form-check-input" name="sex" id="" value="M" checked="">
-            男性
+            <input type="radio" class="form-check-input" name="hot" id="" value="YES" checked="">
+            加辣
           </label>
         </div>
         <div class="form-check">
           <label class="form-check-label">
-            <input type="radio" class="form-check-input" name="sex" id="" value="W">
-            女性
+            <input type="radio" class="form-check-input" name="hot" id="" value="NO">
+            不加
           </label>
         </div>      
         <div class="form-group">
-          <label for="msg">其他備註</label>
+          <label for="msg">備註</label>
           <textarea class="form-control" name="msg" id="msg" rows="4"></textarea>
         </div>
-        <p color="blue">加保其他保險</p>
-        <div class="form-check form-check-inline">
-          <label class="form-check-label">
-            <input class="form-check-input" type="checkbox" name="" id="" value="checkedValue"> 車體險
-          </label>
-        </div>
-        <div class="form-check form-check-inline">
-          <label class="form-check-label">
-            <input class="form-check-input" type="checkbox" name="" id="" value="checkedValue"> 第三責任險
-          </label>
-        </div>
-        <div class="form-check form-check-inline">
-          <label class="form-check-label">
-            <input class="form-check-input" type="checkbox" name="" id="" value="checkedValue"> 竊盜險
-          </label>
-        </div>
-        <button type="button" onclick="location.href='https://www.youtube.com/watch?v=072tU1tamd0&amp;ab_channel=Majima'" class="btn btn-primary">送出</button>
+        <button type="button" onclick="location.href='https://www.youtube.com/watch?v=8KU5Bp0QSE4'" class="btn btn-primary">送出</button>
   
       
   
